@@ -1,13 +1,19 @@
 rocket:webpack
 ==============
 
-Webpack provider package for Meteor.
+A Webpack provider package for Meteor.
+
+For now, only specific versions of Webpack are provided. Need a specific
+version? Open an issue on GitHub for it.
+
+On the wishlist: allow packages to specify a specific version of webpack to
+fetch from NPM.
 
 Usage
 -----
 
-This package simply provides webpack from npm via the package's `Webpack`
-export, so in your app or package code:
+This package simply provides webpack from NPM via the `Webpack` export, so in
+your app or package code:
 
 ```js
 Webpack({
@@ -23,3 +29,5 @@ webpack({
     // configuration
 }, callback);
 ```
+
+Roadmap
