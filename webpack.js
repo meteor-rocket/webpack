@@ -1,0 +1,1 @@
+Webpack = Npm.require('webpack')
