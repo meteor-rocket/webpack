@@ -3,11 +3,12 @@ rocket:webpack
 
 A Webpack provider package for Meteor.
 
-For now, only specific versions of Webpack are provided. Need a specific
-version? Open an issue on GitHub for it.
+For now, only specific versions of Webpack are provided: those matching the
+released versions of this package. Need a specific version of Webpack? Open an
+issue for it on GitHub.
 
-On the wishlist: allow packages to specify a specific version of webpack to
-fetch from NPM.
+On the wishlist: allow dependents of rocket:webpack to specify a specific
+version of webpack to fetch from NPM.
 
 Usage
 -----
