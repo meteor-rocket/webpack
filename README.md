@@ -30,5 +30,3 @@ webpack({
     // configuration
 }, callback);
 ```
-
-Roadmap
