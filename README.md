@@ -30,3 +30,13 @@ webpack({
     // configuration
 }, callback);
 ```
+
+Todos
+-----
+
+- [ ] Let users specify any version of Webpack and this package will fetch that
+      version. Likely to be released as rocket:webpack@2.0.0
+- [ ] When rocket:webpack lets dependents specify Webpack versions, we can also
+      let dependents specify which loaders to also include. rocket:module will
+      look at this package to find loaders. This will make it easy configure loaders
+      for use with rocket:module.
