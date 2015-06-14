@@ -1,6 +1,6 @@
 Package.describe({
   name: 'rocket:webpack',
-  version: '1.9.10_4',
+  version: '1.9.10_5',
   summary: 'Provides Webpack from NPM.',
   git: 'https://github.com/trusktr/rocket-webpack.git',
   documentation: 'README.md'
