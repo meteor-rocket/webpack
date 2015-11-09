@@ -1,17 +1,17 @@
 Package.describe({
   name: 'rocket:webpack',
-  version: '1.10.5',
+  version: '1.12.3',
   summary: 'Provides Webpack from NPM.',
   git: 'https://github.com/trusktr/rocket-webpack.git',
   documentation: 'README.md'
 })
 
 Npm.depends({
-    'webpack': "1.10.5"
+    'webpack': "1.12.3"
 })
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.1.0.2')
+  api.versionsFrom('1.0')
   api.addFiles('webpack.js', 'server')
   api.export('Webpack', 'server')
 })
